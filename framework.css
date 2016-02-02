@@ -1,0 +1,121 @@
+/* ------ VilFrame - css framework for fast and simple develop -------*/
+* {outline:none;margin:0px;padding:0px;}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    background:#fff;
+    color: #222;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.left {float:left;}
+.right {float:right;}
+/* blocks */
+div {display: block;position:relative;}
+nav, aside, header, footer, article, section, figure {display:block;padding:0;margin:0;}
+.container {clear:both;}
+.container:before, .container:after {content:" ";display:table;}
+.container:after {clear:both;}
+.col-1 {width:100%;}
+.col-12 {width:50%;}
+.col-13 {width:33%;}
+.col-14 {width:25%;}
+.col-23 {width:66%;}
+.col-34 {width:75%;}
+.col-15 {width:20%;}
+.col-25 {width:40%;}
+.col-35 {width:60%;}
+.col-45 {width:80%;}
+.col-16 {width:16%;}
+.col-56 {width:84%;}
+.col-17{width:14%;}
+.col-1, .col-12, .col-13, .col-23, .col-34, .col-14, .col-25, .col-35, .col-45, .col-15, .col-16, .col-56, .col-17 {float:left;}
+.col-1, .col-12, .col-13, .col-23, .col-34, .col-14, .col-25, .col-35, .col-45, .col-15, .col-16, .col-56, .col-17 {position:relative;min-height:1px;}
+.block {display:block;}
+.inline {display: inline-block!important;}
+.bcenter {margin:0 auto!important;}
+.bright {float:right!important;}
+.bleft {float:left!important;}
+.brad {border-radius:5px;}
+.brad50 {border-radius:50%;}
+.hidden {display:none;}
+/* list */
+ol, ul, li {list-style: none outside none;}
+/* text */ 
+h1,h2, h3, h4, h5, h6 {font-weight:500;line-height:1.2;color:inherit;}
+h1, h2, h3 {margin:20px 0 10px;}
+h4, h5, h6 {margin:10px 0px}
+h1 {font-size:36px;}
+h2 {font-size:30px;}
+h3 {font-size:24px;}
+h4 {font-size:18px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+a {color:#01bbee;}
+a:hover, a:focus, a:active {text-decoration:none;color:#0881A7;}
+p {line-height:1.5;padding:0 0 10px;}
+.nodecor {text-decoration:none;}
+.italic {font-style:italic;}
+.tcenter {text-align:center;}
+.tright {text-align:right;}
+.tleft {text-align:left;}
+.upper {text-transform:uppercase;}
+.lower {text-transform:lowercase;}
+.thin {font-weight:200;}
+/* forms */
+label {font-size:14px;font-weight:500;line-height:16px;margin: 15px 0 5px;cursor: default;display:block;}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {padding:8px 10px;height:40px;font-size:18px;width:100%;background-color: #ffffff;border: 1px solid #cccccc;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;transition: border 0.3s linear 0s, box-shadow 0.2s linear 0s;color:#333;border-radius:4px;margin:0 0 20px;}
+textarea {height:100px;}
+input:focus:invalid,textarea:focus:invalid,select:focus:invalid{color:#b94a48;border-color:#ee5f5b;}
+input:focus:invalid:focus,textarea:focus:invalid:focus,select:focus:invalid:focus{border-color:#e9322d;-webkit-box-shadow:0 0 6px #f8b9b7;-moz-box-shadow:0 0 6px #f8b9b7;box-shadow:0 0 6px #f8b9b7;}
+.phoneform span {position:absolute;font-size:18px;font-weight:400;left:10px;top:10px;}
+.phoneform input {padding:8px 10px 8px 35px;}
+button {display:block;}
+/* padding */
+.pad0 {padding:0;}
+.pad10{padding:10px;}
+.pad20{padding:20px;}
+.pad30{padding:30px;}
+.pad40{padding:40px;}
+.pad50{padding:50px;}
+/* vertical padding */
+.vpad10{padding:10px 0;}
+.vpad20{padding:20px 0;}
+.vpad30{padding:30px 0;}
+.vpad40{padding:40px 0;}
+.vpad50{padding:50px 0;}
+/* horisontal padding */
+.hpad10{padding:0 10px;}
+.hpad20{padding:0 20px;}
+.hpad30{padding:0 30px;}
+.hpad40{padding:0 40px;}
+.hpad50{padding:0 50px;}
+/* top indent padding */
+.vpad010{padding:0 0 10px;}
+.vpad020{padding:0 0 20px;}
+.vpad1020{padding:10px 0 20px;}
+/* bottom indent padding */
+.vpad100{padding:10px 0 0;}
+.vpad200{padding:20px 0 0;}
+.vpad2010{padding:20px 0 10px;}
+/* margin */
+.mar0 {margin:0;}
+.mar10{margin:10px;}
+.mar20{margin:20px;}
+.mar30{margin:30px;}
+.mar40{margin:40px;}
+.mar50{margin:50px;}
+/* vertical margin */
+.vmar10{margin:10px 0;}
+.vmar20{margin:20px 0;}
+.vmar30{margin:30px 0;}
+.vmar40{margin:40px 0;}
+.vmar50{margin:50px 0;}
+/* horisontal margin */
+.hmar10{margin:0 10px;}
+.hmar20{margin:0 20px;}
+.hmar30{margin:0 30px;}
+.hmar40{margin:0 40px;}
+.hmar50{margin:0 50px;}
